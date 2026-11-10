@@ -1,0 +1,28 @@
+{
+  "name": "projeto-nivelamento-saep",
+  "version": "1.0.0",
+  "description": "Módulo de Nivelamento e Gestão de Clientes - Clínica Pequenos Passos (SAEP)",
+  "type": "module",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node --watch src/app.js"
+  },
+  "keywords": [
+    "saep",
+    "ssr",
+    "express",
+    "ejs",
+    "postgresql"
+  ],
+  "author": "Estudante SAEP",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "express-session": "^1.18.0",
+    "pg": "^8.13.0"
+  }
+}
